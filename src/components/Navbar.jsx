@@ -25,9 +25,12 @@ export default function Navbar() {
     }`}>
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <a href="#home" className="inline-flex items-center gap-2">
-            <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 shadow-lg shadow-blue-500/30" />
-            <span className="text-white/90 font-semibold tracking-tight">My Portfolio</span>
+          <a href="#home" className="inline-flex items-center gap-3 group">
+            <div className="relative h-8 w-8">
+              <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600" />
+              <div className="absolute inset-0 rounded-lg ring-2 ring-white/20 blur-sm group-hover:blur-md transition" />
+            </div>
+            <span className="text-white/90 font-semibold tracking-tight">Your Name</span>
           </a>
 
           <div className="hidden md:flex items-center gap-8">

@@ -6,7 +6,7 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-950 text-white">
+    <div className="min-h-screen bg-slate-950 text-white bg-mesh noise-overlay">
       <Navbar />
 
       <main>
@@ -18,7 +18,7 @@ function App() {
 
       <footer className="relative border-t border-white/10">
         <div className="mx-auto max-w-7xl px-6 py-10 text-center text-white/60">
-          © {new Date().getFullYear()} Your Name — Built with care and a bit of sparkle ✨
+          © {new Date().getFullYear()} Your Name • Crafted uniquely — not a template
         </div>
       </footer>
     </div>
